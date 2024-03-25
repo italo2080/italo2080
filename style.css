@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(220, 255, 220);
+}
+
+a {
+    text-decoration: none;
+}
+
+.profile {
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+
+.profile a {
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+
+.profile a p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+img  {
+    width: 100px;
+    height: 100px;
+    border: 5px solid rgb(105, 170, 105);
+    border-radius: 50%;
+}
+
+.instagram {
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 80%;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(105, 170, 105);
+    border-radius: 10px;
+}
+
+.instagram:hover {
+    background-color: rgb(80, 130, 80);
+    color: white;
+}
+
+.tiktok {
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 80%;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(105, 170, 105);
+    border-radius: 10px;
+}
+
+.tiktok:hover {
+    background-color: rgb(80, 130, 80);
+    color: white;
+}
+
+.youtube {
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 80%;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(105, 170, 105);
+    border-radius: 10px;
+}
+
+.youtube:hover {
+    background-color: rgb(80, 130, 80);
+    color: white;
+}
+
+.kwai {
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 80%;
+    font-weight: 600;
+    color: black;
+    background-color: rgb(105, 170, 105);
+    border-radius: 10px;
+}
+
+.kwai:hover {
+    background-color: rgb(80, 130, 80);
+    color: white;
+}
+
+footer {
+    background-color: rgb(105, 170, 105);
+}
+
+footer p {
+    margin: 0px;
+    margin-top: 300px;
+    padding: 2px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1900px) {
+    .instagram {
+        width: 50%;
+    }
+
+    .tiktok {
+        width: 50%;
+    }
+
+    .youtube {
+        width: 50%;
+    }
+
+    .kwai {
+        width: 50%;
+    }
+}
+
